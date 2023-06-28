@@ -25,9 +25,4 @@ public class ModifyController {
         return modifyService.getLastModifiedLength();
     }
 
-    @GetMapping("/api/modify")
-    public String modifyString(@RequestParam("string") String inputString) {
-        return modifyService.modifyString(inputString);
-    }
-
 }
