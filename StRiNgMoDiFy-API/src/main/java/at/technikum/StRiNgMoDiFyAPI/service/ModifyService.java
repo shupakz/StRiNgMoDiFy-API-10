@@ -29,4 +29,8 @@ public class ModifyService {
 
         return lastModifiedString;
     }
+
+    public int getLastModifiedLength() {
+        return lastModifiedLength;
+    }
 }
